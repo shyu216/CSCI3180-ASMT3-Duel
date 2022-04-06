@@ -28,7 +28,7 @@ class Fighter:
 
     def print_info(self):
         defeated_info = "defeated" if self.defeated else "undefeated"
-        print("Fighter {}: HP: {} attack: {} defence: {} speed: {} {}".format(self.NO, self.HP, self.attack, self.defense, self.speed, defeated_info))
+        print("Fighter {}: HP: {} attack: {} defense: {} speed: {} {}".format(self.NO, self.HP, self.attack, self.defense, self.speed, defeated_info))
 
     def check_defeated(self):
         return self.defeated
