@@ -22,7 +22,7 @@ sub play_one_round {
     my $self = shift;
 
     my $fight_cnt = 1;
-    print "Round $self->{round_cnt}\n";
+    print "Round $self->{round_cnt}:\n";
 
     my $team1_fighter;
     my $team2_fighter;
@@ -83,7 +83,7 @@ sub play_one_round {
         $fight_cnt = $fight_cnt + 1;
     }
 
-    print "Fighter at rest:\n";
+    print "Fighters at rest:\n";
     my $team_fighter = $team1_fighter;
     while (1) {
         if ( defined($team_fighter) ) {

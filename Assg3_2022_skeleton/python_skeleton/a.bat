@@ -1,1 +1,1 @@
-@fc /L a b
+@fc /L a.txt b.txt
